@@ -1,0 +1,112 @@
+body{
+}
+
+html{
+    background: #829AF1 !important;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #1ab188;
+    top: 0;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: #1ab188;
+    bottom: 0;
+    color: #fff;
+}
+
+header a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#content{
+    max-height: calc(100% - 120px);
+    padding: 0px 10% !important;
+    margin-top: 60px !important;
+}
+
+#content input,#loginForm textarea {
+    /*font-size: 22px;*/
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    /*-webkit-transition: border-color .25s ease, box-shadow .25s ease;*/
+    /*transition: border-color .25s ease, box-shadow .25s ease;*/
+}
+
+#content input:focus,#loginForm textarea:focus {
+    outline: 0;
+    border-color: white;
+}
+
+#content a {
+    text-decoration: none;
+    color: #FFF;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+#content a:hover {
+    color: #443540;
+    cursor: pointer;
+}
+
+#lend_book .modal-content{
+    /*color: blue*/
+}
+
+#lend_book .modal-content #book_name{
+    font-size: 20px;
+}
+#lend_book .modal-content input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border-bottom:  1px solid #829AF1;
+    color: #382F2F;
+    border-radius: 0;
+}
+.customer-list{
+    cursor: pointer; 
+    margin-left:  50px; 
+    padding: 5px; 
+    border: 1px solid steelblue; 
+    border-radius:3px
+}
+
+.customer-list:hover{
+    background: steelblue;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #ccc;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #ccc;  
+}
+
+:-ms-input-placeholder {  
+    color: #ccc;  
+}

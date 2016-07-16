@@ -1,0 +1,17 @@
+<div class="col-md-4">
+    <form>
+
+        <div class="field-wrap">
+            <input ng-model="user.email" type="email" name="email" placeholder="Email Address *" required autocomplete="off"/>
+        </div>
+
+        <div class="field-wrap">
+            <input ng-model="user.password" name="password" placeholder="Password *" type="password" required autocomplete="off"/>
+        </div>
+        
+        <p ng-if="loginFail">Invalid user credentials.</p>
+
+        <button ng-click="login()">Log In</button>
+
+    </form>
+</div>
