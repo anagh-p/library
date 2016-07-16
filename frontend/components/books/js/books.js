@@ -57,10 +57,11 @@ app.controller('BookController', function ($scope, $http, $cookies, $location) {
      * @returns {undefined}
      */
     $scope.prepareLendData = function (book_index) {
-        getAllCustomers();//List the customers right when the click is made.
+        
         $scope.search_customer = '';//Clear any previous search.
         $scope.customers = [];//Clear the previously searched results.
-
+        getAllCustomers();//List the customers right when the click is made.
+        
         $scope.lendBookDetails = {
             lend_book_id: $scope.books[book_index].book_id,
             lend_book_title: $scope.books[book_index].book_title,
