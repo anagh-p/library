@@ -32,6 +32,15 @@ header a{
     margin-top: 60px !important;
 }
 
+#loginErrorBox{
+    text-align: center; 
+    color:#fff; 
+    background: #ff6666; 
+    border: 1px solid #fff; 
+    padding: 5px; 
+    margin-bottom: 10px; 
+}
+
 #content input,#loginForm textarea {
     /*font-size: 22px;*/
     display: block;
